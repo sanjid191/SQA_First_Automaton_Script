@@ -11,7 +11,7 @@ driver = webdriver.Chrome(service=service)
 time.sleep(2)
 driver.maximize_window()
 
-# Open Google
+# open Google
 print(driver.title)
 driver.get("https://www.saucedemo.com/")
 time.sleep(2)
@@ -28,8 +28,10 @@ time.sleep(2)
 login_button.click()
 
 
+
 # print the title of the page
 print(driver.title)
+
 
 time.sleep(2)
 
