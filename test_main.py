@@ -29,13 +29,12 @@ time.sleep(2)
 
 login_button.click()
 
-
-
 # print the title of the page
 print(driver.title)
-
 
 time.sleep(2)
 
 # Close the browser
 driver.quit()
+
+#testing branch
